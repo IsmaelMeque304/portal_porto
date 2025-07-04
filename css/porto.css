@@ -1126,4 +1126,34 @@ body {
   .porto-destaque-icon {
     font-size: 1.5rem;
   }
+}
+
+.tabela-responsiva {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+}
+.tabela-responsiva table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    background: #fff;
+}
+.tabela-responsiva th, .tabela-responsiva td {
+    border: 1px solid #b0bec5;
+    padding: 0.75rem 1rem;
+    text-align: center;
+}
+.tabela-responsiva th {
+    background: #e0f7fa;
+    color: #00796b;
+    font-weight: bold;
+}
+.tabela-responsiva tr:nth-child(even) {
+    background: #f5f5f5;
+}
+@media (max-width: 700px) {
+    .tabela-responsiva table {
+        min-width: 500px;
+        font-size: 0.95rem;
+    }
 } 
